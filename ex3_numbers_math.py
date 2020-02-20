@@ -21,3 +21,6 @@ print("How about some more.")
 print("Is it greater?", 5 > -2)
 print("Is it greather or equal?", 5 >= -2)
 print("Is it less or equal?", 5 <= -2)
+
+#Doing some own math calc, useful.
+print("1200 - 468", 1000 - 468)
