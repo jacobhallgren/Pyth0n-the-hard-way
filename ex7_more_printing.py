@@ -1,4 +1,4 @@
-print("Mara had a little lamb")
+print("Maria had a little lamb")
 print("Its fleece was white as {}.".format('snow'))
 print("And everywhere that mary went.")
 print("." * 10) # adds ten '
