@@ -25,7 +25,7 @@ def sort_sentence (sentence):
 def print_frist_and_last (sentence):
     """Prints the first and last words of the sentence."""
     words = break_words(sentence)
-    print_frist_word(words)
+    print_first_word(words)
     print_last_word(words)
 
 def print_first_and_last_sorted(sentence):
