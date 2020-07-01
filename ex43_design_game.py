@@ -187,20 +187,20 @@ class EscapePod(Scene):
             if int(guess) != good_pod:
                 print(dedent("""
                     You jump into pod {guess} and hit the eject button.
-                    106 The pod escapes out into the void of space, then
-                    107 implodes as the hull ruptures, crushing your body into
-                    108 jam jelly.
+                    The pod escapes out into the void of space, then
+                    implodes as the hull ruptures, crushing your body into
+                    jam jelly.
                     """))
                 return 'death'
             
             else:
                 print(dedent("""
                 You jump into pod {guess} and hit the eject button.
-                114 The pod easily slides out into space heading to the
-                115 planet below. As it flies to the planet, you look
-                116 back and see your ship implode then explode like a
-                117 bright star, taking out the Gothon ship at the same
-                118 time. You won!
+                The pod easily slides out into space heading to the
+                planet below. As it flies to the planet, you look
+                back and see your ship implode then explode like a
+                bright star, taking out the Gothon ship at the same
+                time. You won!
                 """))
             return 'finished'
 
@@ -212,7 +212,7 @@ class Finished(Scene):
 
 class Map(object):
     scenes = {
-        'central_coridor': CentralCorridor(),
+        'central_corridor': CentralCorridor(),
         'laser_weapon_armory': LaserWeaponArmory(),
         'the_bridge': TheBridge(),
         'escape_pod': EscapePod(),
